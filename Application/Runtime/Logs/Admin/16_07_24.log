@@ -1,0 +1,735 @@
+[ 2016-07-24T11:15:07+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.172542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.111235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111334s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.4813s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.2209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.1270s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.1043s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0898s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.096718s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.096814s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.111879s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.111957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.097050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.097117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021977s ]
+
+[ 2016-07-24T11:15:09+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Position&a=index&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.1051s ]
+NOTIC: [8] Undefined variable: conds D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\PositionController.class.php 第 12 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id LIMIT 0,1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: conds D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\PositionController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-07-24T11:15:11+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-07-24T11:15:18+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Content&a=index&p=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 10,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-07-24T11:15:20+08:00 ] 127.0.0.1 /admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 0,3   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-07-24T12:28:36+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020558s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017942s ]
+
+[ 2016-07-24T14:52:03+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-07-24T14:52:23+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-07-24T14:52:47+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-07-24T15:09:06+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-07-24T15:09:26+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-07-24T15:09:46+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2016-07-24T15:10:19+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-07-24T15:10:47+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-07-24T15:11:03+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-07-24T15:11:23+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-07-24T15:24:25+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 10 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Admin\Controller\ContentController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc, news_id desc LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\PositionModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\xampp\htdocs\php\tinycms\Application\Common\Model\MenuModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\xampp\htdocs\php\tinycms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined variable: sitenav D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 114 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: catid D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\php\tinycms\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-07-24T15:24:33+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+
